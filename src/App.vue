@@ -1,19 +1,52 @@
 <script setup lang="ts"></script>
 
 <template>
-    <section>
-        <h1>Vue Template</h1>
-        <p>
-            Visit
+    <section class="template-container">
+        <h1 class="title">Vue Template</h1>
+        <p class="description">
+            Explore this
             <a
                 href="https://github.com/George-Al3xander/vue-template"
                 target="_blank"
                 rel="noopener"
+                class="link"
                 >repository</a
             >
-            to read the documentation
+            for details.
         </p>
     </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+.template-container {
+    font-family: Arial, sans-serif;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 600px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.link {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+</style>
