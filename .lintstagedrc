@@ -1,0 +1,11 @@
+{
+  "src/**/*.+(js|json|ts|tsx|vue)": [
+    "eslint"
+  ],
+  "src/**/*.+(ts|tsx|vue)": [
+      "tsc-files --noEmit"
+    ],
+  "src/**/*.{js,jsx,ts,tsx,json,css,scss,md,vue}": [
+    "prettier --write"
+  ]
+}
