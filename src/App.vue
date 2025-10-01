@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { env } from "./env";
+</script>
 
 <template>
     <section class="template-container">
@@ -6,7 +8,7 @@
         <p class="description">
             Explore this
             <a
-                href="https://github.com/George-Al3xander/vue-template"
+                :href="env('VITE_GITHUB_REPO_LINK')"
                 target="_blank"
                 rel="noopener"
                 class="link"
