@@ -1,6 +1,7 @@
+import { mount } from "@vue/test-utils";
+
 import { describe, expect, it } from "vitest";
 
-import { mount } from "@vue/test-utils";
 import HomePage from "../HomePage.vue";
 
 describe("HomePage", () => {
