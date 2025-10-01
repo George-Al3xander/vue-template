@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
 
 import { mount } from "@vue/test-utils";
-import App from "../App.vue";
+import HomePage from "../HomePage.vue";
 
-describe("App", () => {
+describe("HomePage", () => {
     it("mounts renders properly", () => {
-        const wrapper = mount(App);
+        const wrapper = mount(HomePage);
         expect(wrapper.text()).toContain("Vue Template");
     });
 });

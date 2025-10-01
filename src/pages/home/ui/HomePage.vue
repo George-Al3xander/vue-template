@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { env } from "./env";
+import { env } from "@/shared/config";
 </script>
 
 <template>

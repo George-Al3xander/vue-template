@@ -1,4 +1,3 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import { app } from "@/app/entrypoint";
 
-createApp(App).mount("#app");
+app.mount("#app");
